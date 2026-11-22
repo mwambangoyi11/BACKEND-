@@ -1,0 +1,19 @@
+{
+  "name": "activity7-backend",
+  "version": "1.0.0",
+  "description": "ICT251 Activity 7: Campus Maintenance Requests REST API (Node.js, Express, SQLite)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "setup": "node scripts/setup.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
